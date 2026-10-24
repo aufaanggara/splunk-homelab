@@ -10,14 +10,14 @@ Project ini membangun lab SIEM dari nol dengan Splunk Enterprise sebagai indexer
 
 ## Tech Stack & Tools
 
-- Splunk Enterprise 10.4.2 — indexer dan search head (trial 60 hari)
-- Splunk Universal Forwarder 10.4.2 — agen ringan pengirim log dari endpoint
-- VirtualBox — virtualisasi (NAT + Host-only `192.168.56.0/24`)
-- Ubuntu Server 24.04 LTS — OS Splunk server dan endpoint Linux
-- Windows — endpoint Windows
-- Kali Linux 2025.4 — mesin attacker untuk simulasi serangan
-- Wazuh agent — dari lab sebelumnya, berjalan berdampingan di endpoint
-- OpenSSH — akses remote dari host Windows
+- Splunk Enterprise 10.4.2 : indexer dan search head (trial 60 hari)
+- Splunk Universal Forwarder 10.4.2 : agen ringan pengirim log dari endpoint
+- VirtualBox : virtualisasi (NAT + Host-only `192.168.56.0/24`)
+- Ubuntu Server 24.04 LTS : OS Splunk server dan endpoint Linux
+- Windows : endpoint Windows
+- Kali Linux 2025.4 : mesin attacker untuk simulasi serangan
+- Wazuh agent : dari lab sebelumnya, berjalan berdampingan di endpoint
+- OpenSSH : akses remote dari host Windows
 
 ## Topologi
 
@@ -26,7 +26,7 @@ Project ini membangun lab SIEM dari nol dengan Splunk Enterprise sebagai indexer
 | `splunk-server` | `192.168.56.108` | Splunk Enterprise (web 8000, receiving 9997) |
 | `endpoint-linux-waz-plunk` | `192.168.56.106` | Endpoint Linux (Wazuh agent + Splunk UF) |
 | `endpoint-windows-waz-plunk` | `192.168.56.109` | Endpoint Windows (Wazuh agent + Splunk UF, planned) |
-| Kali | `192.168.56.102` | Attacker |
+| `kali` | `192.168.56.102` | Attacker |
 
 ## Struktur Folder
 
