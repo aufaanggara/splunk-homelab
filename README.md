@@ -47,7 +47,7 @@ splunk-homelab/
 │   ├── splunk-server/
 │   ├── forwarders/
 │   └── kali/
-└── writeup/
+└── writeups/
     └── report.md
 ```
 
@@ -70,7 +70,7 @@ splunk-homelab/
 
 ## Dokumentasi
 
-Screenshot per tahap ada di folder `docs/`. Writeup lengkap akan tersedia di folder `writeup/` (`writeup/report.md`).
+Screenshot per tahap ada di folder [`docs/`](docs/). Writeup lengkap akan tersedia di folder [`writeups/`](writeups/).
 
 ## Disclaimer
 
